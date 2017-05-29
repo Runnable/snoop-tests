@@ -1,0 +1,15 @@
+{
+  "name": "snoop-private-ssh-keys",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Used to test private ssh keys",
+  "repository": "https://github.com/Runnable/snoop-private-ssh-keys",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "snoop-private-ssh-key": "git+ssh://git@github.com:CodeNow/snoop-private-ssh-key#master"
+  },
+  "engines": {
+    "node": "v4.4.5",
+    "npm": "2.14.7"
+  }
+}
