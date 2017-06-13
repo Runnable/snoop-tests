@@ -2,5 +2,5 @@ version: '2'
 services:
     web:
       extends:
-        file: docker-compose-source.yml
+        file: compose-extends/docker-compose-source.yml
         service: webapp
