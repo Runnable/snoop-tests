@@ -1,0 +1,5 @@
+version: '2'
+services:
+  webapp:
+    build:
+      context: compose-extends
